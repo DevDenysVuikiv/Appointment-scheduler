@@ -6,7 +6,7 @@ application, its features, and detailed configuration instructions.
 
 ⚠️ **IMPORTANT**: If upgrading from a version before 2.x.x, please note significant database changes were introduced in
 version 2.0.0. Please read
-the [migration guide](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/migration_guides/v2_1_0.md) before
+the [migration guide](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/migration_guides/v2_1_0.md) before
 updating. Version 3.x.x introduces the ability to send email reminders for appointments using Django Q for efficient
 task scheduling. It also allows clients to reschedule appointments if it is allowed by admins.
 
@@ -16,13 +16,13 @@ provided. This app proficiently manages conflicts and availability for appointme
 experience.
 
 For a detailed walkthrough and live example of the system, please refer to
-[this tutorial](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/explanation.md).
+[this tutorial](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/explanation.md).
 
 Detailed documentation can be found in
-the [docs' directory](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/README.md).
+the [docs' directory](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/README.md).
 For changes and migration information, please refer to the release
 notes [here](https://github.com/DevDenysVuikiv/Appointment-scheduler/releases)
-and [here](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/release_notes).
+and [here](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/release_notes).
 
 ## Features ✨
 
@@ -37,13 +37,13 @@ and [here](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/doc
 ## Key features introduced in previous versions.
 
 - For more information, please refer to
-  this [documentation](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/history).
+  this [documentation](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/history).
 
 ## Added Features and Bug Fixes in version 3.x.x
 
 See the [release notes](https://github.com/DevDenysVuikiv/Appointment-scheduler/releases/tag/v3.3.1).
 For older version,
-see their [release notes](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/release_notes).
+see their [release notes](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/release_notes).
 
 ## Quick Start 🚀
 
@@ -180,7 +180,7 @@ See an example of a base.html template [here](https://github.com/DevDenysVuikiv/
 
 1. In your Django project's `settings.py`, you can override the default values for the appointment scheduler.
    More information regarding available configurations can be found in
-   the [documentation](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/docs/README.md#configuration).
+   the [documentation](https://github.com/DevDenysVuikiv/Appointment-scheduler/docs/README.md#configuration).
 2. Modify these values as needed for your application, and the app will adapt to the new settings.
 3. For further customization, you can extend the provided models, views, and templates or create your own.
 
@@ -299,7 +299,7 @@ directory or visit the GitHub repository for more information.
 ## Contributing 🤝
 
 Contributions are welcome! Please refer to
-the [contributing guidelines](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/CONTRIBUTING.md) for more
+the [contributing guidelines](https://github.com/DevDenysVuikiv/Appointment-scheduler/CONTRIBUTING.md) for more
 information.
 
 > **Important**: Please consider starring the repository if you find it useful. It helps me to know that the project is
@@ -307,10 +307,10 @@ information.
 
 ## Code of Conduct 📜
 
-Please refer to the [code of conduct](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/CODE_OF_CONDUCT.md) for
+Please refer to the [code of conduct](https://github.com/DevDenysVuikiv/Appointment-scheduler/CODE_OF_CONDUCT.md) for
 more information.
 
 ## Security policy 🔒
 
-Please refer to the [security policy](https://github.com/DevDenysVuikiv/Appointment-scheduler/tree/main/SECURITY.md) for more
+Please refer to the [security policy](https://github.com/DevDenysVuikiv/Appointment-scheduler/SECURITY.md) for more
 information.
